@@ -6,26 +6,25 @@ public class Emp {
 	private int age;
 
   public Emp(int num, String name, int age) {
-	  this.num = num;
-	  this.name = name;
-	  this.age = age;
+    this.num = num;
+    this.name = name;
+    this.age = age;
   }
-  
+
   public int getNum() {
-      return this.num;
+    return this.num;
   }
 
   public String getName() {
-      return this.name;
+    return this.name;
   }
-  
+
   public int getAge() {
-      return this.age;
+    return this.age;
   }
-  
+
   @Override
   public String toString() {
-	  return "num:" + num + "name:" + name + "age:" + age;
+    return "num:" + num + "name:" + name + "age:" + age;
   }
 }
- 
